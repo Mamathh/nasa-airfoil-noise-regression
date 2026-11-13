@@ -1,4 +1,4 @@
-<img width="957" height="433" alt="image" src="https://github.com/user-attachments/assets/52833c84-1341-468f-814e-94f162783481" /># nasa-airfoil-noise-regression
+# nasa-airfoil-noise-regression
 Multiple Linear Regression analysis on NASA Airfoil Self-Noise dataset with domain-specific anomaly handling
 
 Latar Belakang
@@ -20,6 +20,3 @@ Proyek ini bertujuan untuk memodelkan tingkat kebisingan (*Scaled Sound Pressure
 - Variabel **frekuensi** dan **chord-length** memiliki pengaruh negatif paling kuat terhadap kebisingan.
 - Terjadi fenomena *spectral shift*: kondisi *stall* (`is_stall`) menurunkan tingkat kebisingan pada frekuensi tinggi, mengindikasikan pergeseran energi suara ke frekuensi rendah.
 - Terdapat fenomena *regression to the mean* pada prediksi, di mana model kesulitan menebak nilai ekstrem (mengindikasikan hubungan non-linear seperti hukum pangkat kecepatan (U^5).
-
-## 🚀 Cara Menjalankan
-Buka file `airfoil_regression_analysis.ipynb` menggunakan Google Colab atau Jupyter Notebook. Seluruh kode dapat dijalankan dari atas ke bawah (Run All) tanpa error
